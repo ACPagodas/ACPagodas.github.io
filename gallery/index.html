@@ -6,21 +6,27 @@ active: gallery
 header-img: "assets/gallery-bg.jpg"
 images:
  - gallery-folder: /gallery/album1/
+   cover-image: cover.png
    gallery-name: gallery1
    gallery-date: March 2025
  - gallery-folder: /gallery/album2/
+   cover-image: cover.jpg
    gallery-name: gallery2
    gallery-date: June 2024
  - gallery-folder: /gallery/album3/
+   cover-image: cover.jpg
    gallery-name: gallery2
    gallery-date: June 2023
  - gallery-folder: /gallery/album4/
+   cover-image: cover.jpg
    gallery-name: gallery2
    gallery-date: June 2022
  - gallery-folder: /gallery/album5/
+   cover-image: cover.jpg
    gallery-name: gallery2
    gallery-date: June 2021
  - gallery-folder: /gallery/album6/
+   cover-image: cover.jpg
    gallery-name: gallery2
    gallery-date: June 2020
 
@@ -50,7 +56,7 @@ images:
 					<header class='gallery-icon'>
 		       
 <a href="{{ site.url }}{{ site.baseurl }}{{ image.gallery-folder }}">
-<img src="{{ site.url }}{{ site.baseurl }}{{ image.gallery-folder }}/cover.png"></a>
+<img src="{{ site.url }}{{ site.baseurl }}{{ image.gallery-folder }}/{{ image.cover-image }}"></a>
 
 					</header>	
 					<figcaption class='gallery-caption'>
