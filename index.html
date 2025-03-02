@@ -46,7 +46,7 @@ images:
 				<h2 class="big no-margin" style="font-size: 24px;"><strong>{{ page.main-title }}</strong></h2>
 				<h2 style="font-size: 22px;">{{ page.subtitle }}</h2> 
                      <div class="entry-summary">
-							<p>{{ page.description }}</p>
+							<p style="font-size: 18px;">{{ page.description }}</p>
 						</div><br />
 			</div>
 			
@@ -86,14 +86,6 @@ color:#dddddd; target="_blank" title="Facebook">
                      </span>
 </a></li>
     {% endif %}
- {% if site.twitter_username %}
-			<li>
-   <a href="https://twitter.com/{{ site.twitter_username }}" style="
-color:#dddddd; target="_blank" title="Twitter">
-                       <i class="fa fa-twitter"></i>
-                     </span>
-</a></li>
-    {% endif %}
                 {% if site.instagram_username %}
 			<li>
    <a href="https://instagram.com/{{ site.instagram_username }}" style="
@@ -102,28 +94,6 @@ color:#dddddd; target="_blank" title="Instagram">
                      </span>
 </a></li>
     {% endif %}
-                    {% if site.flickr_username %}
-						<li>
-   <a href="https://flickr.com/photos/{{ site.flickr_username }}" style="
-color:#dddddd; target="_blank" title="Flickr">
-              <i class="fa fa-flickr"></i>
-                     </span>
- </a></li>	
-     {% endif %}
-                    {% if site.deviantart_username %}
-			<li>
-   <a href="http://{{ site.deviantart_username }}.deviantart.com" style="
-color:#dddddd; target="_blank" title="DeviantArt">
-<i class="fa fa-deviantart"></i> </span>
-</a></li>	
-    {% endif %}
-                    {% if site.github_username %}
-                <li>
-   <a href="https://github.com/{{ site.github_username }}" style="
-color:#dddddd; target="_blank" title="Github">
-              <i class="fa fa-github"></i>
-                     </span>
-                   {% endif %}
 <li>
     <a href="mailto:{{ site.email }}" style="
 color:#dddddd; target="_blank" title="Email">
