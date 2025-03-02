@@ -5,14 +5,24 @@ description: "archive"
 active: gallery
 header-img: "assets/gallery-bg.jpg"
 images:
- - image_path: /gallery/albums/g01/alb01.png
-   gallery-folder: /gallery/gallery01/
+ - gallery-folder: /gallery/album1/
    gallery-name: gallery1
    gallery-date: March 2025
- - image_path: /gallery/albums/g02/alb02.jpg
-   gallery-folder: /gallery/gallery02/
+ - gallery-folder: /gallery/album2/
    gallery-name: gallery2
-   gallery-date: June 2015
+   gallery-date: June 2024
+ - gallery-folder: /gallery/album3/
+   gallery-name: gallery2
+   gallery-date: June 2023
+ - gallery-folder: /gallery/album4/
+   gallery-name: gallery2
+   gallery-date: June 2022
+ - gallery-folder: /gallery/album5/
+   gallery-name: gallery2
+   gallery-date: June 2021
+ - gallery-folder: /gallery/album6/
+   gallery-name: gallery2
+   gallery-date: June 2020
 
 ---
 
@@ -40,7 +50,7 @@ images:
 					<header class='gallery-icon'>
 		       
 <a href="{{ site.url }}{{ site.baseurl }}{{ image.gallery-folder }}">
-<img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
+<img src="{{ site.url }}{{ site.baseurl }}{{ image.gallery-folder }}/cover.png"></a>
 
 					</header>	
 					<figcaption class='gallery-caption'>
