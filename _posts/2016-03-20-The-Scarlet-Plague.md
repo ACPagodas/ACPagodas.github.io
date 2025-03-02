@@ -6,7 +6,7 @@ active: journal
 image:
   feature: "pc002.jpg"
 date:       2016-03-20
-header-img: "journal/postcover/pc002.jpg"
+header-img: "assets/postcover/pc002.jpg"
 tags: [tag01, tag02]
 categories: [cat01, cat02]
 comments: false
