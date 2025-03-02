@@ -6,7 +6,7 @@ active: journal
 image:
   feature: "pc003.jpg"
 date:       2025-03-03
-header-img: "assets/postcover/pc003.png"
+header-img: "assets/postcover/pc003.jpg"
 tags: [大同市]
 categories: [山西省]
 comments: false
