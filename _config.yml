@@ -1,5 +1,5 @@
 # Site settings
-title: Ancient Chinese Pagodas
+title: Ancient Pagodas
 email: "acpagodas@yeah.net"
 description: "Photo Pagodas"
 url: "https://acpagodas.github.io"
@@ -15,7 +15,7 @@ share: true
 
 # Owner/author information
 owner:
-  name:   Pagodas
+  name:   Ancient Pagodas
   avatar: avatar.png
   favicon: favicon.ico
   info: photography website template
